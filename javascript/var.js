@@ -38,7 +38,7 @@ console.log(a);   =>  errror
  bigInt ->
  symbol ->
 
-?   non-primitive :
+? console.log(typeOf(variable_name));
 
 
 
