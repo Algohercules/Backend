@@ -1,6 +1,9 @@
-//types of variables 
 
 /*
+
+
+* types of variables :--
+
 
 todo : var is function scoped or globally scoped 
 var age = 25 ;
@@ -30,6 +33,7 @@ console.log(a);   =>  errror
 *datatypes :--
 
 !   primitive :
+
  number -> 1 , 2 .....
  string -> adshgwedfhuif
  undefined -> let age;
@@ -38,7 +42,26 @@ console.log(a);   =>  errror
  bigInt ->
  symbol ->
 
-? console.log(typeOf(variable_name));
+?   console.log(typeOf(variable_name));
+
+
+
+* opeators :--
+
+arithmetic 
+assignment 
+comparison
+logical
+bitwise 
+ternary
+
+
+* conditionals :--
+if else 
+if else if 
+switch case 
+
+
 
 
 
