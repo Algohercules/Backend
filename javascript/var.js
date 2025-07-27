@@ -63,6 +63,10 @@ switch case
 
 
 
+* loops :--
+
+
+
 
 
 */
