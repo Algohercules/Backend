@@ -1,3 +1,33 @@
-alert("hello world");
+// alert("hello world");
 
-console.log("");
+console.log("hey i am console");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
