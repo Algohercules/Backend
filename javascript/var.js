@@ -27,7 +27,21 @@ a = 20 ;
 console.log(a);   =>  errror
 
 
-*/
+*datatypes :--
 
+!   primitive :
+ number -> 1 , 2 .....
+ string -> adshgwedfhuif
+ undefined -> let age;
+ boolean -> true or false 
+ null ->
+ bigInt ->
+ symbol ->
+
+?   non-primitive :
+
+
+
+*/
 
 
