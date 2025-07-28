@@ -7,7 +7,8 @@
 console.log(marks);
 let marks = 100;
 
-//! lie no. 7 to 8  are known as temporal dead zone because hoisting is not posssible in case of let 
+//!  line no. 7 to 8  are known as temporal dead zone because hoisting is not posssible in case of let 
+
 
 
 
