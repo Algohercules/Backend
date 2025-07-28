@@ -3,7 +3,9 @@
 //     console.log("adarsh rai");
 // }
 
-// sayMYName();   //* function calling 
+ //* function calling 
+// sayMYName();  
+
 
 
 
@@ -17,13 +19,25 @@
 
 
 
-function getAverage(){
-    let avg = (num1 + num2) / 2 ;
-    console.log("average is :", avg);
-}
+// function getAverage(){
+//     let avg = (num1 + num2) / 2 ;
+//     console.log("average is :", avg);
+// }
 
-getAverage();
-
-
+// getAverage(3,70);
 
 
+//! return functions 
+
+// function getSum(a,b,c){
+//     let sum = a + b + c;
+//     return sum;
+// }
+
+// let ans = getSum(1,2,3);
+// console.log(ans);
+
+
+
+
+//
