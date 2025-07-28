@@ -78,17 +78,44 @@ to access this heap memory we need a pointer(reference) which is in stack memory
 //! function hoisting 
 
 
-    saymyname("adarsh");
+//     saymyname("adarsh");
      
-   function saymyname(finalname){
-       console.log(finalname);
-   }
+//    function saymyname(finalname){
+//        console.log(finalname);
+//    }
 
 //?  if a function is called above th function declaration then the declaration gets transferred above the calling line automatically : this feature is known as HOISTING
  
-//! variable hoiosting 
+//! variable hoisting 
 
-console.log(age);
-var age = 25;
+// console.log(age);
+// var age = 25;
 
 //?  in variable hoisting only the declaration of variable gets transferred above og calling line not the assignment of value of variable
+
+
+//* variable and function hoisting do not work for let and const keyword
+
+
+//!   classs and object 
+
+// const object1 = new Human();
+// class human{
+
+// }
+
+
+//! function call stack(LIFO)
+    
+
+
+
+//! why functions are called first class citizens 
+// because it has various functionlities such as 
+// assigned as variable, as argument, return, in ds, etc
+
+
+
+
+
+
