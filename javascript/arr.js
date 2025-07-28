@@ -58,18 +58,31 @@ to access this heap memory we need a pointer(reference) which is in stack memory
 */
 
 
-//!   arrays with functions
+//!   arrays passing as functions
 
-let arr = [10,20,30,40,50];
+// let arr = [10,20,30,40,50];
 
-function getSum(arr){
-    let len = arr.length;
-    let sum = 0;
-    for(let index = 0; index<length; index++){
-        sum = sum + arr[index];
-    }
-    return sum;
+// function getSum(arr){
+//     let len = arr.length;
+//     let sum = 0;
+//     for(let index = 0; index<length; index++){
+//         sum = sum + arr[index];
+//     }
+//     return sum;
     
-    let totalSum = getSum(arr);
-    console.log(totalSum);
-}
+//     let totalSum = getSum(arr);
+//     console.log(totalSum);
+// }
+
+
+//! function call stack and hoisting 
+
+
+    saymyname("adarsh");
+     
+   function saymyname(finalname){
+       console.log(finalname);
+   }
+
+//?  if a function is called above th function declaration then the declaration gets transferred above the calling line automatically : this feature is known as HOISTING
+ 
