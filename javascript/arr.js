@@ -13,3 +13,16 @@ to access this heap memory we need a pointer(reference) which is in stack memory
 // console.log(obj);
 
 
+//? shallow copy
+//?  deep copy
+
+
+//! declaration of arrays 
+
+let arr = [1,2,3,4,5];
+console.log(arr);
+
+//* using array constructor
+
+let brr = new Array('love', 1, true)
+console.log(brr);
