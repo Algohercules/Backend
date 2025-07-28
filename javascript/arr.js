@@ -29,25 +29,47 @@ to access this heap memory we need a pointer(reference) which is in stack memory
 
 //?   operations on arrays
 /*
-?   push insert at end
-?   pop deletes the end 
-?   shift remove first item
-?   unshift add first item
-?   slice new part 
-?   splice content change
+?   push => insert at end
+
+?   pop  => deletes the end
+
+?   shift => . remove first item
+
+?   unshift  => add first item
+
+?   slice => new part
+
+?   splice => content change
 
 
-?   map used to direct every element of an array to a function and then return the resultant value 
+?   map => used to direct every element of an array to a function and then return the resultant value 
 
-?  filter  used to create such a function that filters the elements of an array
+?  filter =>  used to create such a function that filters the elements of an array
 
 
-?  reduce  (accumulator and current)
+?  reduce => (accumulator and current)
 
-?  sort (ascending and decending)
+?  sort => (ascending and decending)
 
 ?  index of 
 
 ?  size of 
 
 */
+
+
+//!   arrays with functions
+
+let arr = [10,20,30,40,50];
+
+function getSum(arr){
+    let len = arr.length;
+    let sum = 0;
+    for(let index = 0; index<length; index++){
+        sum = sum + arr[index];
+    }
+    return sum;
+    
+    let totalSum = getSum(arr);
+    console.log(totalSum);
+}
