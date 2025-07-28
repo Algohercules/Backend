@@ -40,4 +40,28 @@
 
 
 
-//
+function getMultiplication(a,b){
+    let ans = a*b;
+    return ans;
+}
+
+console.log(getMultiplication(2,6));
+
+//* another way for same function
+
+let getMultiplication = function(a,b){
+   let ans = a * b;
+   return ans;
+}
+
+let ans = getMultiplication(2,20);
+console.log(ans);
+
+//*another way for same function
+
+let getMultiplication =(a,b) => {
+      let ans = a * b;
+      return ans ;
+}
+
+console.log(getMultiplication(2,20));
