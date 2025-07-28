@@ -75,7 +75,7 @@ to access this heap memory we need a pointer(reference) which is in stack memory
 // }
 
 
-//! function call stack and hoisting 
+//! function hoisting 
 
 
     saymyname("adarsh");
@@ -86,3 +86,9 @@ to access this heap memory we need a pointer(reference) which is in stack memory
 
 //?  if a function is called above th function declaration then the declaration gets transferred above the calling line automatically : this feature is known as HOISTING
  
+//! variable hoiosting 
+
+console.log(age);
+var age = 25;
+
+//?  in variable hoisting only the declaration of variable gets transferred above og calling line not the assignment of value of variable
