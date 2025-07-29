@@ -51,3 +51,9 @@
 
   //!  insertadjacentelement()
   //?  beforebegin , afterbegin , beforeend , afterend 
+
+
+
+//* adding css styles using javascript 
+
+
