@@ -24,3 +24,12 @@
 
 //? select the element go oto console wimdow and press $0
 // the element will be accessed
+
+
+
+//!   updation in elements
+//!   inner html  (get/set)
+
+// element.innerhtml  ->  tags will be shown
+// element.innerhtml=""   ->tag will be updated
+
