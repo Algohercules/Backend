@@ -45,7 +45,9 @@
   // bodytag.appendchild(fheading);
 
 
-  //! insert edjacent html () property
+  //! insertadjacenthtml() 
   // this propeerty is used to insert the element sat any desired place 
 
-  
+
+  //!  insertadjacentelement()
+  //?  beforebegin , afterbegin , beforeend , afterend 
