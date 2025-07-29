@@ -35,3 +35,11 @@
 
 //element.textcontent  and element.innertext are similar but the diference is 
 //?  innertext shows the element as same as it is shown on th ui or browser but the  textcontent shows the elelment in the way how code was written
+
+
+
+//!  create element 
+  // let fheading = document.createElement('h1');
+  //  fheading.textcontent = "  ";
+  //   let bodyTag = document.queryselector('body');
+  // bodytag.appendchild(fheading);
