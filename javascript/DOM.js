@@ -43,3 +43,9 @@
   //  fheading.textcontent = "  ";
   //   let bodyTag = document.queryselector('body');
   // bodytag.appendchild(fheading);
+
+
+  //! insert edjacent html () property
+  // this propeerty is used to insert the element sat any desired place 
+
+  
