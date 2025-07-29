@@ -18,3 +18,20 @@ catch(error){
     console.log("i am inside catch block")
 
 }
+
+
+//* finally block
+
+try{
+    console.log("x");   
+}
+
+catch(e){
+    console.log(" iam inside catch block");
+}
+
+
+
+finally {
+    console.log("this will run everytime");
+}
