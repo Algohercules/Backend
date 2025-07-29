@@ -35,3 +35,14 @@ catch(e){
 finally {
     console.log("this will run everytime");
 }
+
+
+//!  custom error 
+
+try{
+    console.log(x);
+}
+
+catch(err){
+    throw new Error("bhai pehle declare kr do");
+}
