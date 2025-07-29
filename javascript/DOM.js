@@ -33,3 +33,5 @@
 // element.innerhtml  ->  tags will be shown
 // element.innerhtml=""   ->tag will be updated
 
+//element.textcontent  and element.innertext are similar but the diference is 
+//?  innertext shows the element as same as it is shown on th ui or browser but the  textcontent shows the elelment in the way how code was written
