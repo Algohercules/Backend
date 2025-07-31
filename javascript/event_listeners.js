@@ -10,3 +10,4 @@
 // what actionn has 6ot be performed for the event target 
 
 //?  <event_taregt>.addEventListener(<event_type>, <function->action>)
+
