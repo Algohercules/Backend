@@ -13,7 +13,7 @@ for(let i = 0; i<= 100; i++){
 
 const t2 = performance.now(); 
 
-console.log("total time by code 2"  +  (t2 - t1));
+console.log("total time by code 1"  +  (t2 - t1));
 
 
 // code 2;
@@ -35,6 +35,23 @@ const t4 = performsnce.now();
 console.log("total time by code 2"  +  (t4 - t3));
 
 
+// performance.now  =>  used to measure performance  time of the code too be run 
 
-// performance.now  =>  used to measure performance  time of the code too be run  
+
+//!  reflow and repaint 
+
+// reflow is the process of calculating position ort dimension of element 
+// while 
+// repaint is the process of displaying content element pixerl by pixel
+
+//* repaint is faster than reflow 
+
+// jitjne akm reflow aur repaints honge utna fater code hoga 
+
+
+// jab bhi fragment me kuchhh bhu add hots hai to it takes no reflow and no repaint jbki jab bhi element me kuchh add  hota hai it takes one reflow and one repaint 
+
+
+
+
 
