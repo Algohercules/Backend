@@ -52,6 +52,32 @@ console.log("total time by code 2"  +  (t4 - t3));
 // jab bhi fragment me kuchhh bhu add hots hai to it takes no reflow and no repaint jbki jab bhi element me kuchh add  hota hai it takes one reflow and one repaint 
 
 
+//! synchronouws code
+
+
+// console.log(" this is adarsh");
+// console.log("this is synvhronous code");
+
+// setTimeout (saymyname , 5000);
+
+// function saymyname (){
 
 
 
+// }
+
+
+//! event looop
+
+// this facility is used to writeb the async code to run smoothly
+
+
+
+// console.log("start");
+
+// setTimeout(function , timeout){
+//     console.log("love babbar");
+// }
+
+
+ 
